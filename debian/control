@@ -1,4 +1,4 @@
-Source: @CODENAME_SAFE@-@FLAVOUR@-settings
+Source: @CODENAME_SAFE@-gdm3-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -7,23 +7,22 @@ Uploaders: Torsten Wohlfarth <towo@siduction.org>,
 Build-Depends: debhelper (>= 9),
                dh-systemd
 Standards-Version: 3.9.8
-Homepage: https://git.siduction.org/extra/settings-@FLAVOUR@
-Vcs-Git: https://git.siduction.org/extra/settings-@FLAVOUR@.git
-Vcs-Browser: https://git.siduction.org/extra/settings-@FLAVOUR@.git
+Homepage: https://git.siduction.org/extra/settings-gdm3
+Vcs-Git: https://git.siduction.org/extra/settings-gdm3.git
+Vcs-Browser: https://git.siduction.org/extra/settings-gdm3.git
 
-# @FLAVOUR@ Settings
-Package: @CODENAME_SAFE@-@FLAVOUR@-settings
+Package: @CODENAME_SAFE@-gdm3-settings
 Architecture: all
 Depends: ${misc:Depends}
-Description: Settings for @DISPLAY@
+Description: Settings for GDM3
  add description here
 
-Package: @CODENAME_SAFE@-@FLAVOUR@-livesettings
+Package: @CODENAME_SAFE@-gdm3-livesettings
 Architecture: all
-Pre-Depends: @CODENAME_SAFE@-@FLAVOUR@-settings,
+Pre-Depends: @CODENAME_SAFE@-gdm3-settings,
              gdm3,
              gnome-icon-theme
 Depends: ${misc:Depends}
-Description: @DISPLAY@ settings in live mode
+Description: GDM3 settings in live mode
  The live-package throw in all dependencies for the
  settings package
