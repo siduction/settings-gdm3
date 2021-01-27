@@ -1,3 +1,9 @@
+c-blues-gdm3-settings (2021.1.0) UNRELEASED; urgency=medium
+
+  * preparing 21.1 release c-blues 
+
+ -- Hendrik Lehmbruch <hendrikl@siduction.org>  Wed, 27 Jan 2021 21:04:41 +0100
+
 patience-gdm3-settings (2016.1.0-1) unstable; urgency=medium
 
   * the release is near 
