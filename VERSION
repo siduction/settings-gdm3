@@ -7,7 +7,7 @@ VERSION=2021.1.0
 DISTRIBUTION=unstable
 
 # Gdm3 and Gnome settings
-BACKGROUND_RENDERING_OPTION="spanned"
+BACKGROUND_RENDERING_OPTION="stretched"
 
 
 # FLL_LIVE_USER for 10-live-cd.pkla
