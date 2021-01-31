@@ -1,3 +1,9 @@
+cblues-gdm3-settings (2021.1.0-1) unstable; urgency=medium
+
+  * fix codename safe
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 30 Jan 2021 22:51:12 +0100
+
 c-blues-gdm3-settings (2021.1.0) unstable; urgency=medium
 
   [ Hendrik Lehmbruch ]
