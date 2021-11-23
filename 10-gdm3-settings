@@ -1,5 +1,5 @@
 [org/gnome/desktop/background]
-picture-uri='file:///usr/share/wallpapers/cblues.jpg'
+picture-uri='file:///usr/share/wallpapers/2021-03.svg'
 picture-options='spanned'
 
 [org/gnome/login-screen]
